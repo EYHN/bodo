@@ -1,27 +1,11 @@
-# react library starter
+> This project is still in the early stages of development. All code, interfaces and features are unstable.
 
-Typescript react library starter, with demo page. 
+# bodo
 
-## Features
+Virtual list implementation with complicated API, inspired by [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) from AOSP.
 
-* Bundle with [parcel v2](https://v2.parceljs.org)
-* Generate `commonjs`, `esmodule`, `d.ts` and `example.html`
-* Auto deploy github demo page.
+## Feature
 
-## Command
-
-* `pnpm dev`: Start dev server
-* `pnpm build`: Build production bundle.
-
-## Auto deploy github page
-
-require environment variable
-
-* `DeployPath`: which path you want to deploy to github page, default is `./dist`
-* `DeployBranch`: the github page branch name, default is `gh-page` 
-* `GitHubEmail`: you github email
-* `GitHubUser`: you github username
-* `GitHubRepo`: github repository name
-* `GitHubKEY`: github personal access token, create a new token with the `repo` scope from [here](https://github.com/settings/tokens/new).
-
-see more details: [deploy_gh_page.sh](./deploy_gh_page.sh)
+- Custom layout manager.
+- Completely DOM independent.
+- Support asynchronous measure element size.
